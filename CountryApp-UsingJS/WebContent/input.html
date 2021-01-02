@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Find Country Capitals</title>
+</head>
+<body bgcolor="lightblue">
+ <h1 style="color: red;text-align: center">Html to Servlet Communication Using JS</h1>
+  <form action="countryurl" name="frm" method="POST">
+  <div align="center">
+   Select Country:: <select name="country" onchange="send()">
+   					<option value="" selected>--select--</option>
+   					<option value="0" >India</option>
+   					<option value="1" >USA</option>
+   					<option value="2" >China</option>
+   					<option value="3" >Japan</option>
+   					<option value="4" >Germony</option>
+    </select>
+    </div>
+  </form>
+</body>
+<script language="JavaScript">
+ function send() {
+	frm.submit();
+}
+</script>
+</html>
