@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="RegistrationAPP10-WorkingWithDiffFormComp">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="RegistrationAPP10-WorkingWithDiffFormComp"/>
+        <property name="java-output-path" value="/RegistrationAPP10-WorkingWithDiffFormComp/build/classes"/>
+    </wb-module>
+</project-modules>
