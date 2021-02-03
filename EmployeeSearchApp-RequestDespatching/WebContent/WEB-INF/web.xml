@@ -4,4 +4,20 @@
   <welcome-file-list>
     <welcome-file>input.html</welcome-file>
   </welcome-file-list>
+  <servlet>
+  <servlet-name>ErrorJsp</servlet-name>
+  <jsp-file>/error.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>ErrorJsp</servlet-name>
+  <url-pattern>/errjspurl</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>err</servlet-name>
+  <jsp-file>/error.html</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>err</servlet-name>
+  <url-pattern>/errhtml</url-pattern>
+  </servlet-mapping>
 </web-app>
